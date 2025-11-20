@@ -3,8 +3,10 @@ ocrmypdf==16.0.3
 pypdf==4.1.0
 python-dotenv==1.0.0
 waitress==3.0.0
+pikepdf==9.11.0
 
 # extra OCR helpers you used locally
 pdf2image
 pytesseract
 pylovepdf
+
