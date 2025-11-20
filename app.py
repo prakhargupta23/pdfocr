@@ -45,10 +45,10 @@ def process_pdf_base64(pdf_base64: str) -> str:
             ocrmypdf.ocr(input_path, output_path, deskew=True, force_ocr=True)
             print("[DEBUG] OCR completed successfully")
         except Exception as e:
-            print(f"[ERROR] OCR processing failed: {str(e)}")
+            print(f"[ERROR] OCR processing failed hello2: {str(e)}")
             if os.path.exists(input_path):
                 os.unlink(input_path)
-            return f"OCR processing failed: {str(e)}"
+            return f"OCR processing failed hello: {str(e)}"
 
         # Extract text
         extracted_text = ""
