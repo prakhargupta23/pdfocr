@@ -9,4 +9,6 @@ pikepdf==9.11.0
 pdf2image
 pytesseract
 pylovepdf
+gunicorn
+
 
